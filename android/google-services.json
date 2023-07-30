@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "872660837038",
+    "firebase_url": "https://trying-fireship-les-default-rtdb.firebaseio.com",
+    "project_id": "trying-fireship-les",
+    "storage_bucket": "trying-fireship-les.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872660837038:android:6f4e3dc97d8a01930d033f",
+        "android_client_info": {
+          "package_name": "io.andre.quizappbackup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872660837038-mepqgrad410714fdq0p3tff92afvdam9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.andre.quizappbackup",
+            "certificate_hash": "0335b07393f3460b9e493076d5df89b080bb034a"
+          }
+        },
+        {
+          "client_id": "872660837038-i35lqkehf7cda83h2ml8ctg78b66kqve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIZGNuTcbAnnYY8hq3EZMo-T8kMD3WLdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872660837038-i35lqkehf7cda83h2ml8ctg78b66kqve.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872660837038-ikthah49kgme3krvkq74n2vc59p9ea6h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.andre.quizappbackup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
