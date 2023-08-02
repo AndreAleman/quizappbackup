@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:quizappbackup/routes.dart';
 // Import the firebase_core plugin
 import 'package:firebase_core/firebase_core.dart';
+import 'package:quizappbackup/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -40,6 +41,7 @@ class _AppState extends State<App> {
         if (snapshot.connectionState == ConnectionState.done) {
           return MaterialApp(
             routes: appRoutes,
+            theme: appTheme,
           );
         }
 
