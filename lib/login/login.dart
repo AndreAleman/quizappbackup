@@ -32,6 +32,27 @@ class LoginScreen extends StatelessWidget {
               color: Colors.blue,
               loginMethod: AuthService().googleLogin,
             ),
+            // FutureBuilder is a widget that builds itself based on the latest snapshot of interaction with a Future.
+            FutureBuilder<Object>(
+              // The future that this FutureBuilder is interacting with. In this case, it's checking if Sign in with Apple is available.
+              future: SignInWithApple.isAvailable(),
+              // The builder function that will be called every time the future's state changes (e.g., the future completes or encounters an error).
+              builder: (context, snapshot) {
+                // If the future has completed with data and Sign in with Apple is available (snapshot.data == true)...
+                if (snapshot.data == true) {
+                  // ...return a Sign in with Apple button.
+                  return SignInWithAppleButton(
+                    // When the button is pressed, call the signInWithApple method from the AuthService class.
+                    onPressed: () {
+                      AuthService().signInWithApple();
+                    },
+                  );
+                } else {
+                  // If Sign in with Apple is not available, return an empty Container.
+                  return Container();
+                }
+              },
+            ),
           ],
         ),
       ),
