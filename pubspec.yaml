@@ -17,9 +17,9 @@ dependencies:
   cloud_firestore: ^4.8.4  # Update to the latest compatible version.
   firebase_auth: ^4.7.2  # Update to the latest compatible version.
 
-  # google_sign_in: 5.3.3
-  # sign_in_with_apple: 4.0.0
-  # crypto: 3.0.1
+  google_sign_in: 5.3.3
+  sign_in_with_apple: 4.0.0
+  crypto: 3.0.1
   font_awesome_flutter: 10.5.0
   google_fonts: 5.1.0
   # provider: 6.0.3
